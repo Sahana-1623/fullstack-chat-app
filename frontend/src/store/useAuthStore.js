@@ -9,7 +9,7 @@ const BASE_URL = import.meta.env.MODE === "development" ? "http://localhost:5001
 export const useAuthStore = create((set, get) => ({
   authUser: null,
   isSigninUp: false,
-  isLogginIng: false,
+  isLogginIn: false,
   isUpdatingProfile: false,
   isCheckingAuth: true,
   onlineUsers: [],
